@@ -142,7 +142,7 @@ header{
 
 /* --- film cards --- */
 
-.films-container {
+.films-container, .watchlist-container {
     padding-top: 50px;
     height: 77vh;
     display: flex;
@@ -225,6 +225,15 @@ hr {
     color: #2C2C2C;
     margin: 1rem 0;
     width: 550px;
+}
+
+.apology, .body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
 }
 
 /* --- watchlist button --- */
