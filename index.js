@@ -1,7 +1,3 @@
-// api key: 16915b8
-// link: http://www.omdbapi.com/?i=tt3896198&apikey=16915b8
-// requestUrl = `http://www.omdbapi.com/?s=${searchValue}&type=movie&apikey=16915b8`
-
 const searchInput = document.getElementById("search-input")
 const formEl = document.getElementById("form")
 const filmsContainer = document.getElementById("films-container")
